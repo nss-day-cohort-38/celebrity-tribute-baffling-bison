@@ -43,7 +43,6 @@ We want to see the artist's list of talents. This page should include the follow
 We want to see a list of recent news that might be connected, in any way, to the artist and/or their estate. It should include the following components.
 
 1. Recent events that might be connected to artist.
-1. Make sure you include the likelihood rating for each event, on a scale of 1-10.
 1. Each event should include: related image, date, location, type of event, collaborators, and where the event occured or to purchase tickets.
 
 
