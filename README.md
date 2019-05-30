@@ -4,6 +4,8 @@ Welcome fans.
 
 Your first task as a reporter of the NSSTA is to compile a tribute report on one of the many artists we are considering as a potential honoree winner. Listed below is the information we need to be gathered. Each one of you will be responsible for building a web page to present this information to our judges for consideration.
 
+Keep in mind you should be practicing what you have learned so far in class. When you are building your site make sure you are using semantic tags whenever possible and use Flexbox for styling instead of CSS frameworks such as Bootstrap or Materialize. 
+
 ## All Pages (consistent manner)
 1. Navigation links to the other pages of the report.
 2. Social Media links in the footer.
