@@ -4,38 +4,60 @@ Welcome fans.
 
 Your first task as a reporter of the NSSTA is to compile a tribute report on one of the many artists we are considering as a potential honoree winner. Listed below is the information we need to be gathered. Each one of you will be responsible for building a web page to present this information to our judges for consideration.
 
-Keep in mind you should be practicing what you have learned so far in class. When you are building your site make sure you are using semantic tags whenever possible and use Flexbox for styling instead of CSS frameworks such as Bootstrap or Materialize. 
+Keep in mind you should be practicing what you have learned so far in class. When you are building your site, make sure you are using semantic tags whenever possible and use Flexbox for styling instead of CSS frameworks such as Bootstrap or Materialize.
 
-## All Pages (consistent manner)
-1. Navigation links to the other pages of the report.
+## All pages should include:
+1. Navigation with links to the other pages of the report.
 2. Social Media links in the footer.
+3. Be sure to break each page into meaningful sections, include headings, and use bullet list where appropriate.
 
+
+### Tips For A Good Usable Website
+1. Use acceptable conventions
+   * Logo positioned at top left
+   * Navigation across the top or down the left side
+2. Visual hierarchy
+   * Most important information is the most prominent
+3. Break pages up into defined sections
+   * Logically related content should be related visually
+4. That which is clickable should be obviously clickable.
+5. Eliminate distractions
+   * Use only two typefaces
+   * Limit color pallet (3 colors with black and white)
+   * Use a grid
+6. Support scanning (users don't read)
+   * Use plenty of headings
+   * Short paragraphs
+   * Bulleted lists
+7. Strive for consistency.
+
+#
 ## Executive Summary
 
 This should be the first information displayed when the report is opened. It should contain the following components.
 
 1. Known collaborators with the artist.
-1. A portrait of the artist. This component should have a photo and name.
-1. List of known aliases.
-1. Country of residence.
-
+2. A portrait of the artist. This component should have a photo and name.
+3. List of known aliases.
+4. Country of residence.
 
 ## Career
 
 We want to see the artist's list of talents. This page should include the following components.
 
 1. Short intro to artist.
-1. List of skills/talents.
-1. List of published works - minimum of 3 with images.
-1. List of places the artist has lived. Be sure to list begin and end times.
-1. Include any collaborators.
-1. List of awards.
+2. List of skills/talents.
+3. List of published works - minimum of 3 with images.
+4. List of places the artist has lived. Be sure to list begin and end times.
+5. Include any collaborators.
+6. List of awards.
+
 
 ## Personal
 
 1. Birth date with country of origin.
 1. Birth name (if different than public name)
-1. Death date if applicable. 
+1. Death date if applicable.
 1. Country of current residence.
 1. List of immediate family members (for example: spouse, children, siblings, parents) - minimum 3 with images.
     1. For multiple spouses, show begin/end dates.
