@@ -10,7 +10,7 @@ Keep in mind you should be practicing what you have learned so far in class. Whe
 1. Navigation with links to the other pages of the report.
 2. Social Media links in the footer.
 3. Be sure to break each page into meaningful sections, include headings, and use bullet list where appropriate.
-
+4. Valid HTML. Run each page of HTML code through the html validator at [https://validator.w3.org/](https://validator.w3.org/).
 
 ### Tips For A Good Usable Website
 1. Use acceptable conventions
