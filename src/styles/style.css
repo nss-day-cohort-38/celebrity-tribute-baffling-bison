@@ -1,14 +1,22 @@
 body {
     background-color: black;
+    color: #17A816;
 }
 
+
 /* START Nav Bar! */
+<<<<<<< HEAD
 
 #navContainer {
     width: 100%;
     height: 200px;
 }
 
+=======
+#navContainer {
+    height: 200px;
+}
+>>>>>>> master
 header {
     position: relative;
 }
