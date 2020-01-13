@@ -5,9 +5,17 @@ body {
 
 
 /* START Nav Bar! */
+<<<<<<< HEAD
+ 
 #navContainer {
     height: 200px;
 }
+
+=======
+#navContainer {
+    height: 200px;
+}
+>>>>>>> master
 header {
     position: relative;
 }
