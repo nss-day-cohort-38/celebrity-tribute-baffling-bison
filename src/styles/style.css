@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+}
+
+/* START Nav Bar! */
+header {
+    position: relative;
+}
+
+/* Matrixy banner image*/
+
+.banner-image { 
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    border: 4px groove #17A816;
+    box-shadow: 2px 2px 2px grey;
+    z-index: -1;
+}
+
+#keanuHawt-right {
+    position: absolute;
+    z-index: 0;
+    top: 15px;
+    right: 15px;
+    width: 155px;
+    height: 180px;
+    
+}
+
+#keanuHawt-left {
+    position: absolute;
+    z-index: 0;
+    top: 15px;
+    left: 15px;
+    width: 155px;
+    height: 180px;
+}
+
+/* Main header*/
+header h1 {
+
+    text-align: center;
+    text-shadow: 2px 2px 2px grey;
+    color: #17A816;
+    border: 4px solid #17A816;
+    background-color: black;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 40px;
+}
+
+/* Nav container*/
+nav ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    top: 80px;
+}
+
+/* Nav links*/
+nav a {
+    color: black;
+    border: 2px solid black;
+    background-color: #17A816;
+    padding: 6px;
+    margin: 15px;
+}
+
+/* END Nav Bar!! */
