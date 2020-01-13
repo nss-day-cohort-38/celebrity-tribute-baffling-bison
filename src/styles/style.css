@@ -81,7 +81,8 @@ nav a {
 /* END Nav Bar!! */
 
 /* Personal page styling start*/
-.personalInfo{
+.personalInfo {
+    font-size: 20px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -93,8 +94,23 @@ nav a {
     padding-top: 20px;
 }
 
+.personalInfo div h1 {
+    text-shadow: 5px 2px 9px grey;
+}
+
+.personalInfo__date {
+    font-weight: bold;
+}
+
 .personalInfo__death {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 28px;
+    padding: 50px 50px;
+}
+
+.personalInfo__image {
+    max-width: 50%;
+    height: 600px;
+    padding-bottom: 30px;
 }
 /* End Personal Styling */
