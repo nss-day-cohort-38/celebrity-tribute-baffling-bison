@@ -3,6 +3,11 @@ body {
 }
 
 /* START Nav Bar! */
+ 
+#navContainer {
+    height: 200px;
+}
+
 header {
     position: relative;
 }
@@ -75,3 +80,58 @@ nav a {
 }
 
 /* END Nav Bar!! */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+#collaborators {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin-top: 20px;
+}
+
+.collab {
+    text-align: center;
+    width: 30%;
+    padding: 3px 6px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: limegreen;
+}
+
+img {
+    width: 100%
+}
+
+.collabTitle {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.collabProject {
+    font-size: .7em;
+}
+
+a {
+    color: white;
+}
+
+.keanuName {
+    color: black;
+    margin-top: -50px;
+}
+
+p {
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 30px;
+}
