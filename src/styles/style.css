@@ -3,6 +3,12 @@ body {
 }
 
 /* START Nav Bar! */
+
+#navContainer {
+    width: 100%;
+    height: 200px;
+}
+
 header {
     position: relative;
 }
@@ -75,3 +81,24 @@ nav a {
 }
 
 /* END Nav Bar!! */
+
+#mainContainer {
+    margin-top: 200px;
+    color: #17A816;
+}
+
+
+/* Start! Footer! */
+
+footer p {
+    height: 50px;
+    width: 100%;
+    border-top: 2px solid white;
+    position : static;
+    bottom : 0;
+    background-color: #17A816;
+   
+}
+
+
+/* End Footer */
