@@ -5,17 +5,9 @@ body {
 
 
 /* START Nav Bar! */
-<<<<<<< HEAD
- 
 #navContainer {
     height: 200px;
 }
-
-=======
-#navContainer {
-    height: 200px;
-}
->>>>>>> master
 header {
     position: relative;
 }
@@ -92,7 +84,7 @@ nav a {
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
-    color: white;
+    
 }
 
 #collaborators {
