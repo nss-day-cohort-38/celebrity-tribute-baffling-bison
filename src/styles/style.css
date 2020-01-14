@@ -6,6 +6,10 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.thisURL {
+    font-weight: bold;
+}
+
 /* END global */
 
 
@@ -261,6 +265,11 @@ body.newsFeedBody {
 
 .newsFeedBody a {
     color: white;
+}
+
+.cardTitleNews {
+    font-size: 1.1em;
+    font-weight: bold;
 }
 
 /* END News Feed styling */
