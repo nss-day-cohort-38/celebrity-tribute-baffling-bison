@@ -168,4 +168,14 @@ p.cardProject {
     height: 600px;
     padding-bottom: 30px;
 }
+
+.personalInfo__family {
+    font-weight: bolder;
+}
+
+.famImage #kFam {
+    height: 400px;
+    border: #17A816 solid 5px;
+    display: inline;
+}
 /* End Personal Styling */
