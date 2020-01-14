@@ -289,6 +289,11 @@ footer img {
     width: 296px;
 }
 
+.container--Wide {
+    position: relative;
+    width: 400px;
+}
+
 .overlay {
     position: absolute;
     top: 2px; 
@@ -303,6 +308,10 @@ footer img {
   }
   
   .container:hover .overlay {
+    opacity: 1;
+  }
+
+  .container--Wide:hover .overlay {
     opacity: 1;
   }
   
