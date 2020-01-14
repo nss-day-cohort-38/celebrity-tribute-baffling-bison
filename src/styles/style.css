@@ -5,17 +5,9 @@ body {
 
 
 /* START Nav Bar! */
-<<<<<<< HEAD
- 
 #navContainer {
     height: 200px;
 }
-
-=======
-#navContainer {
-    height: 200px;
-}
->>>>>>> master
 header {
     position: relative;
 }
@@ -117,7 +109,7 @@ nav a {
 }
 
 .personalInfo__image {
-    max-width: 50%;
+    max-width: 70%;
     height: 600px;
     padding-bottom: 30px;
 }
