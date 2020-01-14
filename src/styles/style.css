@@ -88,10 +88,9 @@ body.indexBody {
 
 #cards {
     display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    color: #17A816;
-    padding-top: 25px;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin-top: 20px;
 }
 
 .card {
@@ -127,6 +126,13 @@ body.indexBody {
 
 p.cardProject {
     text-align: center;
+}
+
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 30px;
 }
 
 /* Personal page styling start*/
