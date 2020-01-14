@@ -5,17 +5,9 @@ body {
 
 
 /* START Nav Bar! */
-<<<<<<< HEAD
- 
 #navContainer {
     height: 200px;
 }
-
-=======
-#navContainer {
-    height: 200px;
-}
->>>>>>> master
 header {
     position: relative;
 }
@@ -89,20 +81,20 @@ nav a {
 
 /* END Nav Bar!! */
 
-body {
+body.indexBody {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     color: white;
 }
 
-#collaborators {
+#cards {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
     margin-top: 20px;
 }
 
-.collab {
+.card {
     text-align: center;
     width: 30%;
     padding: 3px 6px;
@@ -111,20 +103,20 @@ body {
     background-color: limegreen;
 }
 
-img {
+.indexBody img {
     width: 100%
 }
 
-.collabTitle {
+.cardTitle {
     font-size: 1.1em;
     font-weight: bold;
 }
 
-.collabProject {
+.cardProject {
     font-size: .7em;
 }
 
-a {
+.indexBody a {
     color: white;
 }
 
@@ -133,7 +125,7 @@ a {
     margin-top: -50px;
 }
 
-p {
+p.cardProject {
     text-align: center;
 }
 
