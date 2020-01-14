@@ -1,0 +1,1 @@
+DDG.duckbar.addDeferred('news',{"ads":[],"vqd":{"wikipedia":"3-308414854903219335196311699697499354313-125872930842741516287938767110606954675"},"response_type":"places","query":["wikipedia"],"results":[],"queryEncoded":["wikipedia"]});
