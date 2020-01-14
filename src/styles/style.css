@@ -69,7 +69,6 @@ nav ul {
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-
     top: 80px;
 }
 
@@ -138,13 +137,14 @@ p.cardProject {
     text-align: center;
 }
 
+
 .title {
     text-align: center;
     font-size: 2em;
-    font-weight: bold;
     margin-top: 30px;
 }
 
+<<<<<<< HEAD
 /* Start! Footer! */
 
 .footer {
@@ -163,3 +163,39 @@ footer a img {
 
 
 /* End Footer */
+=======
+/* Personal page styling start*/
+.personalInfo {
+    font-size: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    color: #17A816;
+    padding-top: 25px;
+}
+
+.personalInfo div {
+    padding-top: 20px;
+}
+
+.personalInfo div h1 {
+    text-shadow: 5px 2px 9px grey;
+}
+
+.personalInfo__date {
+    font-weight: bold;
+}
+
+.personalInfo__death {
+    font-weight: bold;
+    font-size: 28px;
+    padding: 50px 50px;
+}
+
+.personalInfo__image {
+    max-width: 67%;
+    height: 600px;
+    padding-bottom: 30px;
+}
+/* End Personal Styling */
+>>>>>>> master
