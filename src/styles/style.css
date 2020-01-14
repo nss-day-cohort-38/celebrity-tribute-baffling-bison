@@ -87,14 +87,14 @@ body.indexBody {
     color: white;
 }
 
-#collaborators {
+#cards {
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
     margin-top: 20px;
 }
 
-.collab {
+.card {
     text-align: center;
     width: 30%;
     padding: 3px 6px;
@@ -107,12 +107,12 @@ body.indexBody {
     width: 100%
 }
 
-.collabTitle {
+.cardTitle {
     font-size: 1.1em;
     font-weight: bold;
 }
 
-.collabProject {
+.cardProject {
     font-size: .7em;
 }
 
@@ -125,7 +125,7 @@ body.indexBody {
     margin-top: -50px;
 }
 
-p.collabProject {
+p.cardProject {
     text-align: center;
 }
 
