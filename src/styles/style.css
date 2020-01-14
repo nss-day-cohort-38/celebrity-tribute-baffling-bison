@@ -173,7 +173,7 @@ p.cardProject {
     justify-content: center;
     border-top: 2px solid white;
     border-bottom: 2px solid white;
-    position : static;
+    /* position : static; */
     bottom : 0;
     background-image: url("/src/images/Matrixy.jpg");
     height: 60px;
@@ -187,6 +187,15 @@ p.cardProject {
     margin-right: 3%;
    
 }
+
+footer {
+    color: white;
+}
+
+footer img{
+    width: 100%;
+}
+
 
 /* End Footer */
 
