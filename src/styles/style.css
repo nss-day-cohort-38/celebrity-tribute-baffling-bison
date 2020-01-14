@@ -5,17 +5,9 @@ body {
 
 
 /* START Nav Bar! */
-<<<<<<< HEAD
- 
 #navContainer {
     height: 200px;
 }
-
-=======
-#navContainer {
-    height: 200px;
-}
->>>>>>> master
 header {
     position: relative;
 }
@@ -89,7 +81,7 @@ nav a {
 
 /* END Nav Bar!! */
 
-body {
+body.indexBody {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
     color: white;
@@ -111,7 +103,7 @@ body {
     background-color: limegreen;
 }
 
-img {
+.indexBody img {
     width: 100%
 }
 
@@ -124,7 +116,7 @@ img {
     font-size: .7em;
 }
 
-a {
+.indexBody a {
     color: white;
 }
 
@@ -133,7 +125,7 @@ a {
     margin-top: -50px;
 }
 
-p {
+p.collabProject {
     text-align: center;
 }
 
