@@ -80,6 +80,8 @@ nav a {
 
 /* END Nav Bar!! */
 
+/* START Index.html styling */
+
 body.indexBody {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
@@ -135,6 +137,8 @@ p.cardProject {
     margin-top: 30px;
 }
 
+/* END Index.html styling */
+
 /* Personal page styling start*/
 .personalInfo {
     font-size: 20px;
@@ -169,3 +173,21 @@ p.cardProject {
     padding-bottom: 30px;
 }
 /* End Personal Styling */
+
+/* START News Feed styling */
+
+body.newsFeedBody {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.newsFeedBody img {
+    width: 100%
+}
+
+.newsFeedBody a {
+    color: white;
+}
+
+/* END News Feed styling */
