@@ -209,7 +209,7 @@ footer img {
     justify-content: center;
     border-top: 2px solid white;
     border-bottom: 2px solid white;
-    position : static;
+    /* position : static; */
     bottom : 0;
     background-image: url("/src/images/Matrixy.jpg");
     height: 60px;
@@ -236,6 +236,7 @@ footer img {
     align-items: center;
     color: #17A816;
     padding-top: 25px;
+    padding-bottom: 50px;
 }
 
 .personalInfo div {
@@ -261,6 +262,67 @@ footer img {
     height: 600px;
     padding-bottom: 30px;
 }
+
+.personalInfo__family {
+    font-weight: bolder;
+}
+
+.famImage {
+    border: #17A816 solid 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#kFam {
+    max-width: 296px;
+    height: 400px;
+}
+
+#kFam--Wide {
+    width: 400px;
+    height: 400px;
+}
+
+.container {
+    position: relative;
+    width: 296px;
+}
+
+.container--Wide {
+    position: relative;
+    width: 400px;
+}
+
+.overlay {
+    position: absolute;
+    top: 2px; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 400px;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #17A816;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+  .container--Wide:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 /* End Personal Styling */
 
 /* START News Feed styling */
