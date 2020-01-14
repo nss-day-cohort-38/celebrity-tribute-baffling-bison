@@ -167,6 +167,14 @@ p.cardProject {
 
 /* Start! Footer! */
 
+footer {
+    color: white;
+}
+
+footer img{
+    width: 100%;
+}
+
 .footerLinks {
     margin-top: 2%;
     display: flex;
@@ -187,15 +195,6 @@ p.cardProject {
     margin-right: 3%;
    
 }
-
-footer {
-    color: white;
-}
-
-footer img{
-    width: 100%;
-}
-
 
 /* End Footer */
 
