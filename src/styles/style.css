@@ -80,7 +80,21 @@ nav a {
 
 /* END Nav Bar!! */
 
+/* START global */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navContainer a {
+    color: white;
+}
+
+/* END global */
+
 /* START Index.html styling */
+
+
 
 body.indexBody {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
