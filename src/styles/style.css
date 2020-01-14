@@ -6,6 +6,10 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.thisURL {
+    font-weight: bold;
+}
+
 /* END global */
 
 
@@ -120,6 +124,10 @@ body.indexBody {
     margin-top: 20px;
 }
 
+.keanuImage {
+    margin-top: 20px;
+}
+
 .card {
     text-align: center;
     width: 30%;
@@ -129,6 +137,14 @@ body.indexBody {
     background-color: limegreen;
 }
 
+.card ul {
+    text-align: left;
+}
+
+.card li {
+    color: black;
+}
+
 .indexBody img {
     width: 100%
 }
@@ -136,6 +152,14 @@ body.indexBody {
 .cardTitle {
     font-size: 1.1em;
     font-weight: bold;
+    margin-top: -25px;
+}
+
+.cardTitleName {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: black;
+    margin-top: -10px;
 }
 
 .cardProject {
@@ -166,6 +190,14 @@ p.cardProject {
 
 
 /* Start! Footer! */
+
+footer {
+    color: white;
+}
+
+footer img {
+    width: 100%;
+}
 
 .footerLinks {
     margin-top: 2%;
@@ -241,6 +273,11 @@ body.newsFeedBody {
 
 .newsFeedBody a {
     color: white;
+}
+
+.cardTitleNews {
+    font-size: 1.1em;
+    font-weight: bold;
 }
 
 /* END News Feed styling */
