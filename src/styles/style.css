@@ -13,7 +13,7 @@ body {
 
 header {
     height: 210px;
-    overflow: scroll;
+    overflow: auto;
     position: relative;
 }
 
@@ -82,7 +82,6 @@ header h1 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    overflow: scroll;
 }
 
 /* Nav links*/
