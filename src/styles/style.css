@@ -1,7 +1,12 @@
+/* START global */
+
 body {
     background-color: black;
     color: #17A816;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* END global */
 
 
 /* START Nav Bar! */
@@ -100,6 +105,8 @@ header h1 {
     color: #17A816;
 }
 
+/* START Index.html styling */
+
 
 body.indexBody {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -156,6 +163,9 @@ p.cardProject {
     margin-top: 30px;
 }
 
+/* END Index.html styling */
+
+
 /* Start! Footer! */
 
 .footerLinks {
@@ -180,6 +190,7 @@ p.cardProject {
 }
 
 /* End Footer */
+
 
 
 /* Personal page styling start*/
@@ -216,3 +227,21 @@ p.cardProject {
     padding-bottom: 30px;
 }
 /* End Personal Styling */
+
+/* START News Feed styling */
+
+body.newsFeedBody {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.newsFeedBody img {
+    width: 100%
+}
+
+.newsFeedBody a {
+    color: white;
+}
+
+/* END News Feed styling */
