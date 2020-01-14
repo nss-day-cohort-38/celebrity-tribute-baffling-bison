@@ -12,9 +12,11 @@ body {
 /* START Nav Bar! */
 
 header {
-    height: 210px;
+    height: 200px;
+    width: 100%;
     overflow: hidden;
-    position: relative;
+    position: fixed;
+    top: 0;
 }
 
 /* Matrixy banner image*/
@@ -99,9 +101,11 @@ header h1 {
 
 /* END Nav Bar!! */
 
-#mainContainer {
-    margin-top: 200px;
+#mainBody {
+    margin-top: 215px;
     color: #17A816;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /* START Index.html styling */
