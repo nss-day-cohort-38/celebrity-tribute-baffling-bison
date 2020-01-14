@@ -246,21 +246,20 @@ body.newsFeedBody {
 /* END News Feed styling */
 
 /* START career styling */
+
 .popularWorks {
     display: flex;
+    justify-content: space-around;
     flex-flow: row wrap;
-    justify-content: center;
-    border: 1px solid green;
-    align-items: center;
-    
+    margin-top: 10px;
 }
+
 .popularWorks__list {
-    display: flex;
     list-style-type: none;
-    flex-flow: row wrap;
-    justify-content: center;
-    width: 20%;
-    height:20%;
-    border: 1px solid green;
-    align-items: center;
+    text-align: center;
+    width: 200px;
+    padding: 3px 6px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: limegreen;
 }
