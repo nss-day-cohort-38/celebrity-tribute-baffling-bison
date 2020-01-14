@@ -1,14 +1,19 @@
+/* START global */
+
 body {
     background-color: black;
     color: #17A816;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* END global */
 
 
 /* START Nav Bar! */
-#navContainer {
-    height: 200px;
-}
+
 header {
+    height: 210px;
+    overflow: hidden;
     position: relative;
 }
 
@@ -20,80 +25,86 @@ header {
     height: 200px;
     border: 4px groove #17A816;
     box-shadow: 2px 2px 2px grey;
-    z-index: -1;
+    z-index: -2;
 }
 
 #keanuHawt-right {
     position: absolute;
-    z-index: 0;
-    top: 15px;
+    z-index: -1;
+    top: 12px;
     right: 15px;
     width: 155px;
     height: 180px;
+    border: 2px groove #17A816;
     
+}
+@media (max-width: 600px) {
+    #keanuHawt-right { display: none; }
+}
+@media (max-width: 600px) {
+    #keanuHawt-left { display: none; }
 }
 
 #keanuHawt-left {
     position: absolute;
-    z-index: 0;
-    top: 15px;
+    z-index: -1;
+    top: 12px;
     left: 15px;
     width: 155px;
     height: 180px;
+    border: 2px groove #17A816;
 }
 
-/* Main header*/
 header h1 {
-
     text-align: center;
     text-shadow: 2px 2px 2px grey;
     color: #17A816;
     border: 4px solid #17A816;
-    background-color: black;
+    background-color: rgba(0,0,0,0.8);
     width: 40%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    top: 40px;
+    top: 30px;
+    max-height: 85px;
+    overflow: hidden;
+}
+@media (max-width: 575px) {
+    header h1 { max-height: 40px; }
 }
 
 /* Nav container*/
-nav ul {
+#main-nav {
     display: flex;
-    list-style: none;
     flex-wrap: wrap;
     position: relative;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    top: 80px;
+    margin-top: 50px;
 }
 
 /* Nav links*/
-nav a {
+#main-nav a {
+    display: flex;
+    flex-wrap: wrap;
     color: black;
     border: 2px solid black;
-    background-color: #17A816;
+    background-color: rgba(23,168,22,0.8);
     padding: 6px;
-    margin: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-shadow: 5px 3px 15px 5px rgba(0,0,0,0.8);
 }
 
 /* END Nav Bar!! */
 
-/* START global */
-
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+#mainContainer {
+    margin-top: 200px;
+    color: #17A816;
 }
-
-#navContainer a {
-    color: white;
-}
-
-/* END global */
 
 /* START Index.html styling */
-
 
 
 body.indexBody {
@@ -152,6 +163,34 @@ p.cardProject {
 }
 
 /* END Index.html styling */
+
+
+/* Start! Footer! */
+
+.footerLinks {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    position : static;
+    bottom : 0;
+    background-image: url("/src/images/Matrixy.jpg");
+    height: 60px;
+}
+
+.footerLinks a {
+    margin-top: 7px;
+    height: 45px;
+    width: 45px;
+    margin-left: 3%;
+    margin-right: 3%;
+   
+}
+
+/* End Footer */
+
+
 
 /* Personal page styling start*/
 .personalInfo {
