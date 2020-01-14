@@ -144,26 +144,32 @@ p.cardProject {
     margin-top: 30px;
 }
 
-<<<<<<< HEAD
 /* Start! Footer! */
 
-.footer {
-    height: 50px;
-    width: 100%;
+.footerLinks {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
     border-top: 2px solid white;
+    border-bottom: 2px solid white;
     position : static;
     bottom : 0;
-    background-color: #17A816;
+    background-image: url("/src/images/Matrixy.jpg");
+    height: 60px;
 }
 
-footer a img {
-    height: 20px;
-    width: 20px;
+.footerLinks a {
+    margin-top: 7px;
+    height: 45px;
+    width: 45px;
+    margin-left: 3%;
+    margin-right: 3%;
+   
 }
-
 
 /* End Footer */
-=======
+
+
 /* Personal page styling start*/
 .personalInfo {
     font-size: 20px;
@@ -198,4 +204,3 @@ footer a img {
     padding-bottom: 30px;
 }
 /* End Personal Styling */
->>>>>>> master
