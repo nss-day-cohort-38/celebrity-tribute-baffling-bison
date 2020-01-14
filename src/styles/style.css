@@ -205,3 +205,23 @@ body.newsFeedBody {
 }
 
 /* END News Feed styling */
+
+/* START career styling */
+.popularWorks {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 1px solid green;
+    align-items: center;
+    
+}
+.popularWorks__list {
+    display: flex;
+    list-style-type: none;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 20%;
+    height:20%;
+    border: 1px solid green;
+    align-items: center;
+}
