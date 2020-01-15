@@ -378,6 +378,33 @@ body.newsFeedBody {
     color: white;
     background-color: limegreen;
 }
+
+.awards {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin-top: 10px;
+}
+
+.awardsCard {
+    text-align: center;
+    width: 400px;
+    padding: 3px 6px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: limegreen;
+}
+
+.awardsCard ul {
+    text-align: left;
+}
+
+.sectionHeader {
+    text-align: center;
+}
+
+
+
 .cardTitleNews {
     font-size: 1.1em;
     font-weight: bold;
