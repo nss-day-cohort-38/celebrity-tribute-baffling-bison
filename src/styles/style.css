@@ -112,6 +112,18 @@ header h1 {
     margin-right: 5%;
 }
 
+.sidebars a img {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 140px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: -1; /* Stay on top */
+    top: 200px; /* Stay at the top */
+    right: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  
+}
+
 /* START Index.html styling */
 
 
